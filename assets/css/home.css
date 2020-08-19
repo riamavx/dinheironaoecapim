@@ -1,0 +1,152 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 19px;
+}
+
+
+.menu__item{
+    display: inline;
+    
+}
+
+.menu__desktop{
+    margin: 0 120px;
+}
+
+.menu__item__link{
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 9px;
+    color: #264653;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.menu__item__link a{
+    text-decoration: none;
+}
+
+.menu__item__link:hover{
+    color: #e64921;
+    
+}
+
+
+/* HEADER */
+.introducao{
+    display: flex;
+    
+
+
+}
+
+.introducao__img{
+    width: 100%;
+    max-width: 1143px; 
+    margin-left: -25vw;
+    margin-top: -52px;
+    transform: rotate(20deg);
+}
+
+.introducao__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    max-width: 450px;
+    position: absolute;
+    max-width: 400px;
+    margin-left: 50vw;
+    margin-top: calc((90vh - 330px)/2);
+    background-color: #2a9d8f;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.introducao__titulo{
+    font-weight: bold;
+    font-size: 45px;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.introducao__texto{
+    font-size: 18px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 23px;
+}
+
+.btn__verConteudo{
+    border-radius: 10px;
+    background-color: #f4a261;
+    padding: 20px;
+    margin: 11px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+
+.sobreSecao{
+    padding: 80px 0;
+    background-color: #eeeff4;
+    margin-top: calc((90vh - 330px)/2);
+    display: flex;
+    flex-direction: column;
+}
+
+.sobreSecao__titulo{
+    justify-content: center; 
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: #264653;
+    font-weight: bold;
+}
+
+
+.sobreSecao__texto{
+    font-size: 17px;
+    font-weight: bold;
+    color: #264653;
+    margin: 10px;
+    /* padding: 10px; */
+    padding-top: 7px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.sobreSecao__bemVindo{
+    font-family: 'Libre Caslon Display', serif;
+    display: flex;
+    justify-content: center;
+}
+
