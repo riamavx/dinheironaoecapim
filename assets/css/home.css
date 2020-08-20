@@ -150,3 +150,9 @@ nav{
     justify-content: center;
 }
 
+
+footer{
+    background-color: #264653;
+    margin-top: 25px;
+    font-size: 18px;
+}
